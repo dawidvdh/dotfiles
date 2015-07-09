@@ -25,6 +25,7 @@ brew cask install mysqlworkbench
 
 # browsers
 brew cask install google-chrome-canary
+brew cask install google-chrome
 brew cask install firefox-nightly
 brew cask install webkit-nightly
 brew cask install chromium
