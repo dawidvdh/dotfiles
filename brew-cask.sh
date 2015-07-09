@@ -17,6 +17,7 @@ brew cask install iterm2
 brew cask install sublime-text
 brew cask install rubymine
 brew cask install cyberduck
+brew cask install virtualbox
 brew cask install vagrant
 brew cask install imageoptim
 brew cask install macdown
