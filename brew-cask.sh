@@ -28,6 +28,7 @@ brew cask install google-chrome-canary
 brew cask install firefox-nightly
 brew cask install webkit-nightly
 brew cask install chromium
+brew cask install opera
 
 # less often
 brew cask install vlc
