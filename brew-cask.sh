@@ -22,6 +22,7 @@ brew cask install vagrant
 brew cask install imageoptim
 brew cask install macdown
 brew cask install mysqlworkbench
+brew cask install xquartz
 
 # browsers
 brew cask install google-chrome-canary
@@ -32,5 +33,6 @@ brew cask install chromium
 brew cask install opera
 
 # less often
+brew cask install flash
 brew cask install vlc
 brew cask install transmission
