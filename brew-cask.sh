@@ -3,9 +3,13 @@
 # to maintain cask ....
 #     brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
 
+" Installing native apps using \`brew cask\`."
+
 # Install native apps
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
+
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Daily
 brew cask install lastpass
@@ -36,3 +40,9 @@ brew cask install opera
 brew cask install flash
 brew cask install vlc
 brew cask install transmission
+
+echo "Running brew cask caveats."
+
+# cleanup
+brew cleanup --force
+rm -f -r /Library/Caches/Homebrew/*
