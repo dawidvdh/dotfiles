@@ -1,0 +1,5 @@
+PATH="$HOME/bin:$PATH"
+export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mysql/bin
+export PATH=/bin:$PATH
+export PATH=/usr/local/opt/php56/bin:$PATH
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
