@@ -1,0 +1,23 @@
+[user]
+	name = Dawid van der Hoven
+	email = dawidvdh@gmail.com
+[core]
+	autocrlf = input
+	excludesfile = /Users/dawidvanderhoven/.gitignore_global
+[push]
+	default = simple
+[color]
+	ui = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[pull]
+	rebase = true
+[alias]
+	s = status -s
+	lg = log --oneline --decorate --all --graph
+[branch]
+	autosetuprebase = always
+[rerere]
+	enabled = true
