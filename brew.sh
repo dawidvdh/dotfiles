@@ -102,5 +102,8 @@ brew install tree
 brew install node # This installs `npm` too using the recommended installation method
 brew install android-sdk
 brew install zsh
+brew install z
+brew install ffmpeg
+
 # Remove outdated versions from the cellar.
 brew cleanup
