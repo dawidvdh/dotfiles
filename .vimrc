@@ -2,7 +2,7 @@
 set background=dark
 " let g:solarized_termtrans=1
 let g:hybrid_use_iTerm_colors = 1
-colorscheme material-theme
+colorscheme hybrid_reverse
 
 " Make Vim more useful
 set nocompatible
