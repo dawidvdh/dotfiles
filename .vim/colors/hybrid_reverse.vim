@@ -1,4 +1,4 @@
-" File:       hybrid_material.vim
+" File:       hybrid_reverse.vim
 " Maintainer: Kristijan Husak (kristijanhusak)
 " URL:        https://github.com/w0ng/vim-hybrid-material
 " BASED ON:   https://github.com/w0ng/vim-hybrid
@@ -76,17 +76,17 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "hybrid_material"
+let colors_name = "hybrid_reverse"
 
 "}}}
 " GUI And Cterm Palettes:"{{{
 " ----------------------------------------------------------------------------
 if has("gui_running") || ($NVIM_TUI_ENABLE_TRUE_COLOR && has("nvim"))
   let s:vmode      = "gui"
-  let s:background = "#263238"
+  let s:background = "#1d1f21"
   let s:foreground = "#c5c8c6"
-  let s:selection  = "#37474F"
-  let s:line       = "#212D32"
+  let s:selection  = "#373b41"
+  let s:line       = "#282a2e"
   let s:comment    = "#707880"
   let s:red        = "#cc6666"
   let s:orange     = "#de935f"
