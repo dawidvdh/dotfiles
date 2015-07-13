@@ -6,7 +6,7 @@ git pull origin master;
 
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "setup.sh" --exclude "bootstrap.sh" --exclude "brew.sh" --exclude "brew-cask.sh" \
-		--exclude "README.md" --exclude "LICENSE" -avh --no-perms . ~;
+		--exclude "README.md" --exclude "LICENSE" --exclude "init" -avh --no-perms . ~;
 rsync --exclude ".DS_Store" -av --no-perms init/*.otf ~/Library/Fonts/;
 	source ~/.bash_profile;
 }
