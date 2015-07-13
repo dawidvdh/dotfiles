@@ -1,6 +1,6 @@
-"Use the Solarized Dark theme
+"Use the Material Theme Dark theme
 set background=dark
-colorscheme solarized
+colorscheme material-theme
 let g:solarized_termtrans=1
 
 " Make Vim more useful
