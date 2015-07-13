@@ -1,7 +1,8 @@
 "Use the Material Theme Dark theme
 set background=dark
+" let g:solarized_termtrans=1
+let g:hybrid_use_iTerm_colors = 1
 colorscheme material-theme
-let g:solarized_termtrans=1
 
 " Make Vim more useful
 set nocompatible
@@ -103,12 +104,4 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
-endif
-
-let g:base16_shell_path=base16-builder/output/shell/
-
-if !has('gui_running')
-	if exists("g:base16_shell_path")
-	execute "silent !/bin/sh ".g:base16_shell_path."/base16-materialtheme.".&background.".sh"
-	endif
 endif
