@@ -62,7 +62,7 @@ brew install homebrew/php/php56 --with-gmp
 # brew install cifer
 # brew install dex2jar
 # brew install dns2tcp
-# brew install fcrackzip
+brew install fcrackzip
 # brew install foremost
 # brew install hashpump
 # brew install hydra
@@ -72,7 +72,7 @@ brew install homebrew/php/php56 --with-gmp
 # brew install nmap
 # brew install pngcheck
 # brew install socat
-# brew install sqlmap
+brew install sqlmap
 # brew install tcpflow
 # brew install tcpreplay
 # brew install tcptrace
