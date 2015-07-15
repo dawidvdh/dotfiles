@@ -59,8 +59,12 @@ sudo xcodebuild -license
 #install homebrew
 ./brew.sh
 ./brew-cask.sh
+
 # install rvm with latest stable and rails
 curl -L https://get.rvm.io | bash -s stable --ruby
 
 # Set some osx defaults
 sh .osx
+
+# Lets add the dotfiles
+sh bootstrap.sh
