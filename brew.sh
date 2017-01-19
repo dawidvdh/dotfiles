@@ -2,12 +2,6 @@
 
 # Install command-line tools using Homebrew.
 
-# Ask for the administrator password upfront.
-sudo -v
-
-# Keep-alive: update existing `sudo` time stamp until the script has finished.
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-
 # Make sure we’re using the latest Homebrew.
 brew update
 
@@ -17,7 +11,6 @@ brew upgrade --all
 # Install GNU core utilities (those that come with OS X are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
-sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
 # Install some other useful utilities like `sponge`.
 brew install moreutils
@@ -85,7 +78,7 @@ brew install ack
 # brew install dark-mode
 #brew install exiv2
 brew install git
-# brew install git-lfs
+brew install git-lfs
 brew install imagemagick --with-webp
 # brew install lua
 brew install lynx
@@ -101,9 +94,11 @@ brew install tree
 # brew install zopfli
 brew install node # This installs `npm` too using the recommended installation method
 brew install android-sdk
-brew install zsh
+brew install zshi
+brew install zsh-syntax-highlighting
 brew install z
 brew install ffmpeg
+brew install yarn
 
 # Remove outdated versions from the cellar.
 brew cleanup
