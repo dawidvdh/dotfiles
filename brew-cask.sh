@@ -26,21 +26,21 @@ brew cask install vagrant
 brew cask install imageoptim
 brew cask install macdown
 brew cask install mysqlworkbench
-brew cask insatll sequel-pro
+brew cask install sequel-pro
 brew cask install xquartz
 
 # browsers
 brew cask install google-chrome-canary
 brew cask install google-chrome
 brew cask install firefox
-brew cask install firefox-nightly
+brew cask install firefoxnightly
 brew cask install webkit-nightly
 brew cask install safari-technology-preview
 brew cask install chromium
 brew cask install opera
 
 # less often
-brew cask install flash
+# brew cask install flash
 brew cask install vlc
 brew cask install transmission
 brew cask install dropbox

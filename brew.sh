@@ -40,6 +40,7 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
+brew install mysql
 
 # Install font tools.
 # brew tap bramstein/webfonttools
