@@ -23,10 +23,13 @@ sudo xcodebuild -license
 ./brew-cask.sh
 
 # Start MySQL
-brew services start mysql
+# brew services start mysql
 
 # Secure MySQL
-mysql_secure_installation
+# mysql_secure_installation
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Install zsh theme
 ./fonts/install.sh

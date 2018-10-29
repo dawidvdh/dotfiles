@@ -44,6 +44,7 @@ brew install grep
 brew install openssh
 brew install screen
 brew install homebrew/php/php56 --with-gmp
+brew install rsync
 
 # Install other useful binaries.
 brew install ack
