@@ -46,6 +46,10 @@ brew install screen
 brew install homebrew/php/php56 --with-gmp
 brew install rsync
 
+# Network
+
+brew install ngrep
+
 # Install other useful binaries.
 brew install ack
 brew install git
